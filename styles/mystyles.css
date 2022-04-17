@@ -1,0 +1,65 @@
+/* Font changing */
+.indexfont {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+/* Font change plus color for warning label */
+h4 {
+    color: red;
+    margin: 40px;
+    font-weight: lighter;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+/* Resume Styles */
+.resumesections {
+    font-size: 45px;
+    margin: 40px;
+}
+
+.resumesubsections {
+    font-size: 20px;
+}
+
+.resumesubsections a {
+    text-decoration: none;
+}
+
+.resumesubsections a:hover {
+    color: rgb(104, 104, 104);
+}
+
+/* Justify the text in divs with this class */
+
+.centerText {
+    text-align: center;
+}
+
+/* Cropping an image to fit in a custom frame */
+
+.imgcrop {
+    overflow: hidden;
+    height: 100px;
+    width: 1000px;
+    object-fit: cover;
+    object-position: 50% 47%;
+}
+
+/* Styling the links for my information */
+.indexfont a {
+    color: white;
+}
+
+.indexfont a:hover {
+    color: rgb(203, 203, 203);
+}
+
